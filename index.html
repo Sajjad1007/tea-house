@@ -5,14 +5,28 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Tea House</title>
-  <link rel="stylesheet" href="styles.css">
   <link rel="shortcut icon" href="./images/cup-white.png" type="image/x-icon">
-  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
   <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.24/dist/full.min.css" rel="stylesheet" type="text/css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/7cc514643c.js" crossorigin="anonymous"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            manrope: ["Manrope", "serif"],
+          },
+        }
+      }
+    }
+  </script>
 </head>
 
 <body class="font-manrope">
-  <header class="py-2 lg:py-4 px-4 sm:px-6 lg:px-10 xl:px-14 2xl:px-20 container mx-auto">
+  <header class="py-1 lg:py-3 px-4 sm:px-6 lg:px-10 xl:px-14 2xl:px-20 container mx-auto">
     <!------------------------------ Hero Section ------------------------------>
     <section class="flex flex-col-reverse lg:flex-row items-center gap-6 lg:gap-0 justify-between">
       <div class="text-center lg:text-left max-w-lg md:max-w-xl lg:max-w-2xl">
@@ -292,7 +306,6 @@
         reserved.</p>
     </div>
   </footer>
-  <script src="https://kit.fontawesome.com/7cc514643c.js" crossorigin="anonymous"></script>
 </body>
 
 </html>

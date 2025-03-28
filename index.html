@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Tea House</title>
-  <link rel="shortcut icon" href="./images/cup-white.png" type="image/x-icon">
+  <link rel="shortcut icon" href="./assets/cup-white.png" type="image/x-icon">
   <script src="https://cdn.tailwindcss.com"></script>
   <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.24/dist/full.min.css" rel="stylesheet" type="text/css" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -17,8 +17,8 @@
       theme: {
         extend: {
           fontFamily: {
-            manrope: ["Manrope", "serif"],
-          },
+            "manrope": ["Manrope", "serif"]
+          }
         }
       }
     }
@@ -41,17 +41,17 @@
           Discover our handpicked selection of premium teas, crafted
           with care to awaken your senses and soothe your soul.</p>
         <button
-          class="btn bg-gradient-to-r from-orange-500 to-red-500 px-5 py-3 text-base text-white font-semibold border-none">Explore
+          class="btn bg-gradient-to-r from-orange-500 to-red-500 hover:opacity-80 px-5 py-3 text-base text-white font-semibold border-none">Explore
           More
           <i class="fa-solid fa-arrow-right -rotate-45"></i></button>
       </div>
       <div class="relative max-w-lg xl:max-w-xl 2xl:max-w-2xl">
-        <img src="./images/banner.png" loading="lazy" alt="Banner">
+        <img src="./assets/banner.png" loading="lazy" alt="Banner">
         <div
           class="flex items-center bg-white shadow-md px-4 sm:px-6 2xl:px-8 py-3 rounded-lg absolute bottom-[4%] lg:bottom-[7%] left-[25%] lg:left-[16%] 2xl:left-[17.5%]">
           <i class="fa-solid fa-star text-2xl text-[#ffc850]"></i>
           <div class="ml-3">
-            <h4 class="font-bold text-xl xl:text-2xl">5.00</h4>
+            <h4 class="font-extrabold text-xl xl:text-2xl text-[#1c1c1c]">5.00</h4>
             <p class="font-medium text-xs xl:text-sm text-[#777777]">Trust Pilot Ratings</p>
           </div>
         </div>
@@ -70,7 +70,7 @@
       <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 p-2 sm:p-0 md:max-w-2xl lg:max-w-full mx-auto">
         <div
           class="bg-gradient-to-b from-[rgb(244,244,244)] to-[rgb(244,244,244)]-0 rounded-lg shadow-md p-6 lg:px-2 max-w-[350px] mx-auto">
-          <img src="./images/tea-1.png" loading="lazy" alt="Lemon Tea" class="mx-auto">
+          <img src="./assets/tea-1.png" loading="lazy" alt="Lemon Tea" class="mx-auto">
           <h4 class="text-[#1c1c1c] text-xl font-extrabold mt-6">Lemon Tea</h4>
           <p class="font-medium text-sm text-[#777777] mt-2 md:w-[90%] mx-auto">Discover our handpicked teas, each
             offering a unique blend of flavor.
@@ -78,7 +78,7 @@
         </div>
         <div
           class="bg-gradient-to-b from-[rgb(244,244,244)] to-[rgb(244,244,244)]-0 rounded-lg shadow-md p-6 lg:px-2 max-w-[350px] mx-auto">
-          <img src="./images/tea-2.png" loading="lazy" alt="Milk Tea" class="mx-auto">
+          <img src="./assets/tea-2.png" loading="lazy" alt="Milk Tea" class="mx-auto">
           <h4 class="text-[#1c1c1c] text-xl font-extrabold mt-6">Milk Tea</h4>
           <p class="font-medium text-sm text-[#777777] mt-2 md:w-[90%] mx-auto">Discover our handpicked teas, each
             offering a unique blend of flavor.
@@ -86,7 +86,7 @@
         </div>
         <div
           class="bg-gradient-to-b from-[rgb(244,244,244)] to-[rgb(244,244,244)]-0 rounded-lg shadow-md p-6 lg:px-2 max-w-[350px] mx-auto">
-          <img src="./images/tea-3.png" loading="lazy" alt="Black Tea" class="mx-auto">
+          <img src="./assets/tea-3.png" loading="lazy" alt="Black Tea" class="mx-auto">
           <h4 class="text-[#1c1c1c] text-xl font-extrabold mt-6">Black Tea</h4>
           <p class="font-medium text-sm text-[#777777] mt-2 md:w-[90%] mx-auto">Discover our handpicked teas, each
             offering a unique blend of flavor.
@@ -94,7 +94,7 @@
         </div>
         <div
           class="bg-gradient-to-b from-[#f4f4f4] to-[rgb(244,244,244)]-0 rounded-lg shadow-md p-6 lg:px-2 max-w-[350px] mx-auto">
-          <img src="./images/tea-4.png" loading="lazy" alt="Green Tea" class="mx-auto">
+          <img src="./assets/tea-4.png" loading="lazy" alt="Green Tea" class="mx-auto">
           <h4 class="text-[#1c1c1c] text-xl font-extrabold mt-6">Green Tea</h4>
           <p class="font-medium text-sm text-[#777777] mt-2 md:w-[90%] mx-auto">Discover our handpicked teas, each
             offering a unique blend of flavor.
@@ -132,10 +132,10 @@
         <div class="hidden lg:grid grid-cols-2 grid-rows-3 gap-6 w-[50%] 2xl:w-[36%]">
           <div class="bg-gradient-to-r from-red-100 to-red-50 rounded-lg"></div>
           <div class="p-8 bg-orange-50 rounded-lg lg:row-span-2 grid place-content-center">
-            <img src="./images/fresh-1.png" loading="lazy" alt="Fresh 1" class="mx-auto max-h-48">
+            <img src="./assets/fresh-1.png" loading="lazy" alt="Fresh 1" class="mx-auto max-h-48">
           </div>
           <div class="p-8 bg-stone-100 rounded-lg lg:row-span-2 grid place-content-center">
-            <img src="./images/fresh-2.png" loading="lazy" alt="Fresh 2" class="mx-auto max-h-48">
+            <img src="./assets/fresh-2.png" loading="lazy" alt="Fresh 2" class="mx-auto max-h-48">
           </div>
           <div class="bg-gradient-to-r from-stone-300 to-white rounded-lg"></div>
         </div>
@@ -151,17 +151,17 @@
           Nothing brings us more joy than seeing our customers enjoy every sip of our carefully crafted teas. Read their
           reviews and discover why our tea house is a favorite destination for tea lovers everywhere!</p>
         <button
-          class="btn bg-white px-6 py-3 text-orange-600 hover:bg-white text-base font-semibold hidden lg:block">Show
+          class="btn bg-white hover:bg-white hover:bg-opacity-90 hover:border-white hover:border-opacity-90 px-6 py-3 text-orange-600 text-base font-semibold hidden lg:block">Show
           All</button>
       </div>
       <!------------------------------ Client Reviews ------------------------------>
       <div class="flex flex-col gap-4 relative mt-2 mb-6 lg:mt-6 space-y-8 lg:pl-24">
         <div class="bg-white rounded-lg text-left py-8 px-12 relative opacity-25 hidden lg:block">
           <div class="absolute -top-5 -left-5 bg-white rounded-full p-1">
-            <img src="./images/client.png" loading="lazy" alt="Client">
+            <img src="./assets/client.png" loading="lazy" alt="Client">
           </div>
-          <p class="font-medium text-sm xl:text-base text-[#777777] mb-4">Absolutely love this tea house! I tried the
-            jasmine green tea, and it was the
+          <p class="font-medium text-sm xl:text-base text-[#777777] mb-4">Absolutely loved this tea house! I tried the
+            jasmine green tea and it was the
             perfect blend of floral and refreshing.</p>
           <h5 class="font-bold text-base xl:text-lg text-[#1c1c1c]">Abdur Rahman</h5>
           <p class="font-medium text-sm xl:text-base text-[#777777]">Electrical Engineer</p>
@@ -169,10 +169,10 @@
         <div
           class="bg-white rounded-lg text-left py-8 px-12 z-10 absolute top-[20%] bottom-[30%] right-[10%] left-[11%] xl:left-[6.8%] 2xl:left-[4.2%] hidden lg:block">
           <div class="absolute -top-5 -left-5 bg-white rounded-full p-1">
-            <img src="./images/client.png" loading="lazy" alt="Client">
+            <img src="./assets/client.png" loading="lazy" alt="Client">
           </div>
-          <p class="font-medium text-sm xl:text-base text-[#777777] mb-4">Absolutely love this tea house! I tried the
-            jasmine green tea, and it was the
+          <p class="font-medium text-sm xl:text-base text-[#777777] mb-4">Absolutely loved this tea house! I tried the
+            jasmine green tea and it was the
             perfect blend of floral and refreshing.</p>
           <h5 class="font-bold text-base xl:text-lg text-[#1c1c1c]">Mahmud Huzaifa</h5>
           <p class="font-medium text-sm xl:text-base text-[#777777]">Businessman</p>
@@ -180,16 +180,17 @@
         <div
           class="bg-white rounded-lg text-left py-8 px-10 sm:px-12 relative lg:opacity-25 max-w-lg lg:max-w-none mx-auto">
           <div class="absolute -top-5 -left-4 lg:-left-5 bg-white rounded-full p-1">
-            <img src="./images/client.png" loading="lazy" alt="Client">
+            <img src="./assets/client.png" loading="lazy" alt="Client">
           </div>
-          <p class="font-medium text-sm xl:text-base text-[#777777] mb-4">Absolutely love this tea house! I tried the
-            jasmine green tea, and it was the
+          <p class="font-medium text-sm xl:text-base text-[#777777] mb-4">Absolutely loved this tea house! I tried the
+            jasmine green tea and it was the
             perfect blend of floral and refreshing.</p>
           <h5 class="font-bold text-base xl:text-lg text-[#1c1c1c]">Junayed Siddique</h5>
           <p class="font-medium text-sm xl:text-base text-[#777777]">Assistant Professor</p>
         </div>
       </div>
-      <button class="btn bg-white px-6 py-3 text-orange-600 text-base font-semibold hover:bg-white block lg:hidden">Show
+      <button
+        class="btn bg-white hover:bg-white hover:bg-opacity-90 hover:border-white hover:border-opacity-90 px-6 py-3 text-orange-600 text-base font-semibold block lg:hidden">Show
         All</button>
     </section>
 
@@ -203,7 +204,7 @@
       <div
         class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 xl:gap-8 2xl:gap-12 text-left md:max-w-[90%] lg:max-w-full 2xl:max-w-[75.5rem] mx-auto">
         <div class="rounded-lg shadow-md p-4 border border-gray-300 max-w-[360px] xl:max-w-none mx-auto">
-          <img src="./images/news-1.png" loading="lazy" alt="News 1" class="mx-auto rounded-lg">
+          <img src="./assets/news-1.png" loading="lazy" alt="News 1" class="mx-auto rounded-lg">
           <div class="px-2">
             <time datetime="2025-02-05 18:00" class="block font-medium text-sm text-[#777777] mt-6">
               February 05, 2025
@@ -217,7 +218,7 @@
           </div>
         </div>
         <div class="rounded-lg shadow-md p-4 border border-gray-300 max-w-[360px] xl:max-w-none mx-auto">
-          <img src="./images/news-2.png" loading="lazy" alt="News 2" class="mx-auto rounded-lg">
+          <img src="./assets/news-2.png" loading="lazy" alt="News 2" class="mx-auto rounded-lg">
           <div class="px-2">
             <time datetime="2025-02-05 18:00" class="block font-medium text-sm text-[#777777] mt-6">
               February 05, 2025
@@ -231,7 +232,7 @@
         </div>
         <div
           class="sm:hidden lg:block rounded-lg shadow-md p-4 border border-gray-300 max-w-[360px] xl:max-w-none mx-auto">
-          <img src="./images/news-3.png" loading="lazy" alt="News 3" class="mx-auto rounded-lg">
+          <img src="./assets/news-3.png" loading="lazy" alt="News 3" class="mx-auto rounded-lg">
           <div class="px-2">
             <time datetime="2025-02-05 18:00" class="block font-medium text-sm text-[#777777] mt-6">
               February 05, 2025
@@ -250,11 +251,11 @@
   <footer class="bg-red-100">
     <div class="py-20 px-4 sm:px-6 lg:px-10 xl:px-14 2xl:px-20 container mx-auto">
       <div class="flex justify-between items-center">
-        <img src="./images/cup-black.png" loading="lazy" alt="Cup">
+        <a class="btn btn-ghost p-0 h-[4.2rem]"><img src="./assets/cup-black.png" loading="lazy" alt="Cup"></a>
         <div class="flex items-center gap-8">
           <p class="hidden sm:block font-medium text-sm xl:text-base text-[#777777]">Ready to get started?</p>
           <button
-            class="btn bg-gradient-to-r from-orange-500 to-red-500 px-5 py-3 text-base text-white font-semibold border-none">Get
+            class="btn bg-gradient-to-r from-orange-500 to-red-500 hover:opacity-80 px-5 py-3 text-base text-white font-semibold border-none">Get
             Started</button>
         </div>
       </div>
@@ -287,9 +288,9 @@
         <div class="col-span-2 sm:col-span-3 lg:col-span-2">
           <h4 class="font-semibold text-2xl text-[#1c1c1c] mb-5">Subscribe to our newsletter</h4>
           <input type="email" placeholder="Email Address"
-            class="bg-red-100 border-b border-[#777777] font-medium text-sm text-[#777777] w-5/6 sm:w-3/4 lg:w-5/6 py-3 focus:outline-0">
+            class="bg-red-100 border-b border-[#777777] font-normal text-sm text-[#1c1c1c] w-5/6 sm:w-3/4 lg:w-5/6 py-3 focus:outline-0">
           <button
-            class="btn btn-circle btn-sm bg-gradient-to-r from-orange-500 to-red-500 text-white font-semibold ml-1"><i
+            class="btn btn-circle btn-sm border-none hover:border-none bg-gradient-to-r from-orange-500 to-red-500 hover:opacity-80 text-white font-semibold ml-1"><i
               class="fa-solid fa-angle-right"></i>
           </button>
           <div class="flex justify-start items-center gap-6 mt-8">

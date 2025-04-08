@@ -4,7 +4,7 @@
 
 Welcome to **Tea House**, a modern and fully responsive landing page designed to showcase the essence and premium teas of a tea shop. The project aims to provide an engaging and seamless user experience, ensuring a visually appealing layout with easy accessibility on mobile, tablet and desktop devices.
 
-### [Click here](https://tea-house-sajjadur-rahman.netlify.app/) to visit the website.
+### [Click here](https://tea-house-by-sajjadur-rahman.netlify.app/) to visit the website.
 
 ## Technologies Used
 
